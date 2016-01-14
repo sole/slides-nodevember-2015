@@ -1,0 +1,30 @@
+// TODO Variables xD
+
+@import "../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../node_modules/reveal.js/css/theme/template/settings";
+
+
+$mainFont: 'Helvetica Neue', Helvetica, sans-serif;
+$mainColor: #fff;
+$headingFont: $mainFont;
+$headingFontWeight: 500;
+$headingLetterSpacing: -4px;
+$headingLineHeight: 1;
+$heading1TextShadow: $headingTextShadow;
+$headingTextShadow: 0px 0px 20px black;
+
+$heading1Size: 3.4em;
+$heading2Size: 2.0em;
+$heading3Size: 1.4em;
+
+// Theme template ------------------------------
+@import "../../node_modules/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+
+
+.reveal strong {
+	color: #ff0;
+	font-weight: 500;
+}
+
